@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+body{
+    background: linear-gradient(0.25turn, rgb(145, 145, 255), rgb(0, 0, 230));
+}
+
+h1{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: right;
+}
+
+.navBar nav{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    border-radius: 5px;
+    background: linear-gradient(0.25turn, rgb(145, 145, 255), rgb(0, 0, 230));
+    width: 500px;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.descriptions{
+    background:rgb(0, 0, 230);
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#logos{
+    width: 920px;
+}
+
+#portrait{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 260px;
+    height: 340px;
+}
+
+#imgParagraph{
+    background:rgb(0, 0, 230);
+    border-radius: 15px;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+    float: right;
+    margin-top: 25px;
+    width: 500px;
+    margin-right: 125px;
+}

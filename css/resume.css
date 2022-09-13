@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: right;
+}
+
+.navBar nav{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    border-radius: 5px;
+    background: linear-gradient(0.25turn, rgb(145, 145, 255), rgb(0, 0, 230));
+    width: 500px;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin-left: -25px;
+    border: 4px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.resume pre{
+    white-space: pre-wrap;
+    width: 750px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 5%;
+}
+
+.resume pre strong{
+    font-size: 16px;
+}
+
+.resume pre ul{
+    margin-left: 35px;
+    margin-bottom: -15px;
+}
+
+.resume pre ul li{
+    margin-top: -35px;
+}
+
+#name{
+    font-size: 24px;
+}
